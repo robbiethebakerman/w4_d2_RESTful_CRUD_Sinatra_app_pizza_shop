@@ -5,7 +5,8 @@ body {
 }
 
 .content {
-
+ position: relative;
+ top: 40px;
 }
 
 .options p {
