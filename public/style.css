@@ -11,12 +11,12 @@ body {
 
 .options p {
   display: inline-block;
-  margin: 10px 10px;
+  margin: 0px 10px;
 }
 
 .options form {
   display: inline-block;
-  margin: 10px 10px;
+  margin: 0px 10px;
 }
 
 nav ul {
@@ -26,6 +26,7 @@ nav ul {
   background-color: #f1f1f1;
   width: 100%;
   position: fixed;
+  top: 0;
 }
 
 nav li {
