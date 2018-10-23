@@ -1,0 +1,13 @@
+<p>First Name: <%= @order.first_name %></p>
+<p>Last Name: <%= @order.last_name %></p>
+<p>Topping: <%= @order.topping %></p>
+<p>Quantity: <%= @order.quantity %></p>
+<div class="options" >
+  <p><a href="/pizza-orders/update/<%= @order.id %>">Change order</a></p>
+  <form method="post" action="/pizza-orders/delete">
+    <input type="hidden" name="id" value="<%= @order.id %>"/>
+    <input type="submit" value="Cancel order"/>
+  </form>
+</div>
+<p>Why not order another pizza from us <a href="/pizza-orders/new">here</a>?</p>
+<p>... or click <a href="/pizza-orders">here</a> to see all orders!</p>
