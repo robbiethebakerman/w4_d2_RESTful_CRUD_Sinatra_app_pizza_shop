@@ -8,7 +8,7 @@
 
   <label for="pizza-select">Select a pizza:</label>
     <select id="pizza-select" name="topping" >
-      <option value="" selected disabled hidden><%= @order.topping %></option>
+      <option value="<%= @order.topping %>" selected hidden><%= @order.topping %></option>
       <option value="Margherita">Margherita</option>
       <option value="Calzone">Calzone</option>
       <option value="Pepperoni">Pepperoni</option>
